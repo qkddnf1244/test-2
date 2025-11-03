@@ -1,4 +1,37 @@
-<a href="/test-2/about">about</a>
-<a href="/test-2/contact">contact</a>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lane Dear</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header class="nav">
+    <div class="logo">Lane Dear</div>
+    <nav>
+      <a href="./about/">About</a>
+      <a href="./contact/">Contact</a>
+    </nav>
+  </header>
 
-<h1>내 생에 첫 홈페이지</h1>
+  <section class="hero">
+    <h1>Every Month, A New Story Begins.</h1>
+    <p>당신의 하루가 선물처럼 배달되는 다이어리.</p>
+    <button onclick="scrollToSection('intro')">Learn More</button>
+  </section>
+
+  <section id="intro" class="intro">
+    <h2>Write Your Journey</h2>
+    <p>
+      Lane Dear는 매달 새로운 디자인과 감성을 담은 다이어리 세트를 구독으로 제공합니다.
+      꾸준히 기록하며, 당신만의 이야기를 만들어가세요.
+    </p>
+  </section>
+
+  <footer>
+    <p>© 2025 Lane Dear</p>
+  </footer>
+</body>
+</html>
